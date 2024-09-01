@@ -1,0 +1,178 @@
+body{
+    background-color: #e1c6c6;
+    width:2000px;
+    
+    
+    
+}
+.user{
+    display:flex;
+    flex-direction: row;
+}
+
+.img-profile{
+  display: visible;
+  width: 300px;
+  height: 50px;
+  background:rgb(248, 205, 205);
+
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.menu{
+    background-color:rgb(248, 205, 205);
+    
+    
+    box-shadow: 1px 2px 10px black;
+    
+    border-radius: 1em;
+    width: 260px;
+    height:650px;
+    padding:20px;
+
+}
+
+
+ul li a{
+    display:block;
+    background-color:white;
+    padding: 5px;
+    margin:2px;
+    border-width: 2px;
+    border-color: rgb(159, 113, 113);
+    border-style: solid;
+    border-radius: 8px;
+    box-shadow:1px 1px 15px  rgb(180, 131, 131);
+    align-content: center;
+    width: 200px;
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    height:30px;
+    gap: 50px;
+    
+    
+}
+ul li a:hover{
+    background-color: rgb(247, 229, 238);/*تغير اللون لما نوقف عليها*/
+  
+}
+.img-profile{
+    width: 50px;
+}
+.Posts{
+    
+    background-color: rgb(248, 205, 205);
+    border-radius: 1em;
+    display: inline-block;
+    width: 1100px; ;
+    height:700px;
+    margin-left: 50px;
+    box-shadow:1px 2px 10px black;
+    overflow-y: scroll;
+    
+    
+   
+}
+
+.header{
+    
+    font-size: 60px;
+    font-weight: bold;
+    padding-left:700px;
+    
+    
+    
+    
+
+}
+.first-post{
+    background-color:rgb(248, 205, 205);
+    font-size:40px ;
+    width: 650px;
+    height:300px;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 0.5em;
+    margin: 70px;
+    box-shadow: 5px 10px 10px #ad6565;
+    margin-left: 200px;
+    
+
+}
+.first-user-name{
+    display: block;
+    font-family: 'Courier New', Courier, monospace;
+    
+    
+}
+button{
+    background-color: #f2c6c6;
+    text-shadow:1px 2px 10px rgb(164, 95, 95);
+    font-size: 20px;
+    border-radius: 0.5em;
+    width:150px;
+    height:40px;
+    margin: 30px;
+    cursor: pointer;
+    
+
+}
+ul{
+    list-style:none;/*to remove points*/
+    padding:10px;
+}
+.second-post{
+    background-color:rgb(248, 205, 205);
+    font-size:40px ;
+    width: 650px;
+    height:300px;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 0.5em;
+    box-shadow: 2px 5px 10px #ad6565;
+    
+
+}
+.second-user-name{
+    display: block;
+    font-family: 'Courier New', Courier, monospace;
+}
+.third-post{
+    background-color:rgb(248, 205, 205);
+    font-size:40px ;
+    width: 650px;
+    height:300px;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 0.5em;
+    box-shadow: 2px 5px 10px #ad6565;
+}
+.fourth-post{
+    background-color:rgb(248, 205, 205);
+    font-size:40px ;
+    width: 650px;
+    height:300px;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 0.5em;
+    box-shadow: 2px 5px 10px #ad6565;
+}
+.third-user-name{
+    display: block;
+    font-family: 'Courier New', Courier, monospace;
+}
+.fourth-user-name{
+    display: block;
+    font-family: 'Courier New', Courier, monospace;
+}
+.lines{
+    visibility: hidden;
+}
